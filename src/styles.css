@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+}
+body {
+  background: url("http://i.stack.imgur.com/jGlzr.png") no-repeat 0 0 scroll;
+  background-color: #0c0c0c;
+}
+h1 {
+  text-align: center;
+}
+.main-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-input input {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding: 0px;
+  border: none;
+}
+.main-input button {
+  width: 200px;
+
+  padding: 0px;
+  height: 30px;
+  border: none;
+}
+button:hover {
+  background-color: red;
+  color: black;
+}
+input:focus {
+  background-color: lightyellow;
+}
